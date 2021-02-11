@@ -11,8 +11,8 @@ How the data sets were recorded:
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain."
 
 
-Our model: 
 
+Our model: 
 In our model we initialized a Sequential Model and used an LSTM Model as our layer due to the data being a time series data set. We added a dropout layer to avoid overfitting and finally used sigmoid activation in our output layer. This was our primary model.]
 
 In our second model with added more LSTM layers and tweaked the dropout layer to see how it impacted the accuracy of the model.
