@@ -14,6 +14,6 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Our model: 
 
-In our model we initialized a Sequential Model and used an LSTM Model as our layer due to the data being a time series data set. We added a dropout layer to avoid overfitting and finally used sigmoid activation in our output layer. This was our primary model.]
+In our model we used an LSTM Model as our layer due to the data being a time series data set. We added a dropout layer to avoid overfitting and finally used sigmoid activation in our output layer. This was our primary model.]
 
 In our second model with added more LSTM layers and tweaked the dropout layer to see how it impacted the accuracy of the model.
